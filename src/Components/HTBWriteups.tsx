@@ -52,7 +52,7 @@ export const HTBWriteups = ({ style }: Props) => (
             >
               {h.summary}
             </p>
-            <a
+            {/* <a
               href="#"
               style={{
                 color: Colors.blue,
@@ -62,7 +62,7 @@ export const HTBWriteups = ({ style }: Props) => (
               }}
             >
               Read Write-Up →
-            </a>
+            </a> */}
           </Card>
         ))}
       </div>

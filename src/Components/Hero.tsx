@@ -74,7 +74,8 @@ export const Hero = () => (
         }}
       >
         <a
-          href="/resume.pdf" 
+          href="/portfolio/resume.pdf" 
+          // target="_blank"
           download="resume.pdf"
           style={{ ...s.btnOutline, display: "inline-block", margin: 0 }}
         >
