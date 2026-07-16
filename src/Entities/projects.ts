@@ -1,17 +1,15 @@
 export const projects = [
   {
-    title: "Home Lab SIEM Setup",
-    desc: "Built a virtualized SOC environment using Splunk and ELK Stack to monitor network traffic, parse logs, and detect anomalies across multiple VMs.",
-    tags: ["Splunk", "ELK", "VirtualBox", "Linux"],
-  },
-  {
-    title: "Phishing Simulation Framework",
-    desc: "Developed a controlled phishing simulation tool in Python to test employee awareness within an authorized environment, including a reporting dashboard.",
-    tags: ["Python", "GoPhish", "SMTP"],
-  },
-  {
-    title: "Network Traffic Analyzer",
-    desc: "Custom Python tool using Scapy to capture, parse, and visualize network packets. Detects common attack patterns and exports to CSV.",
-    tags: ["Python", "Scapy", "Wireshark", "Pandas"],
+    title: "Web Application Vulnerability Scanner",
+    desc: "Developed a Python-based vulnerability assessment tool with modular scanning capabilities for security headers, SSL/TLS issues, exposed services, SQL injection, and XSS vulnerabilities. Built a reporting dashboard to visualize findings and remediation guidance.",
+    tags: [
+      "Python",
+      "Web Security",
+      "Vulnerability Assessment",
+      "Docker",
+      "DVWA",
+      "Security Automation",
+    ],
+    link: "https://github.com/nickstanislawski/vulnerability-scanner",
   },
 ];

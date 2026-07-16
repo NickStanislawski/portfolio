@@ -4,10 +4,10 @@ import { Colors, s } from "../Utilities/theme";
 const NavBar = () => {
   const navItems = [
     "About",
+    "Projects",
     "Education",
     "Certifications",
     "Skills",
-    // "Projects",
     // "Labs",
     // "CVE Write-Ups",
     "HTB Write-Ups",

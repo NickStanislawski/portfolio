@@ -3,7 +3,7 @@ import { SectionHeader } from "./SectionHeader";
 import { s, Colors } from "../Utilities/theme";
 
 interface CardGridProps {
-  data: Array<{ title: string; desc: string; tags: string[] }>;
+  data: Array<{ title: string; desc: string; tags: string[], link: string }>;
   label: string;
   title: string;
   id: string; 
@@ -46,7 +46,7 @@ export const CardGrid = ({ data, label, title, id, style }: CardGridProps) => (
             </div>
             <div style={{ marginTop: "1rem" }}>
               <a
-                href="#"
+                href={p.link || "#"}
                 style={{
                   color: Colors.blue,
                   fontSize: "0.82rem",

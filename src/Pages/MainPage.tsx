@@ -1,5 +1,5 @@
 import { Colors } from "../Utilities/theme";
-// import { projects } from "../Entities/projects";
+import { projects } from "../Entities/projects";
 // import { labs } from "../Entities/labs";
 import { Footer } from "../Components/footer";
 import { Contact } from "../Components/contact";
@@ -9,7 +9,7 @@ import Certifications from "../Components/Certifications";
 import { Education } from "../Components/Education";
 import { Skills } from "../Components/Skills";
 import { Hero } from "../Components/Hero";
-// import { CardGrid } from "../Components/CardGrid";
+import { CardGrid } from "../Components/CardGrid";
 import NavBar from "../Components/NavBar";
 
 const App = () => {
@@ -24,16 +24,17 @@ const App = () => {
     >
       <NavBar />
       <Hero />
-      <Education style={"sectionAlt"}/>
-      <Certifications style={"section"} />
-      <Skills style={"sectionAlt"}/>
-      {/* <CardGrid
+      <CardGrid
         data={projects}
         label="// personal work"
         title="Projects"
         id="projects"
         style={"section"}
-      /> */}
+      />
+      <Education style={"sectionAlt"}/>
+      <Certifications style={"section"} />
+      <Skills style={"sectionAlt"}/>
+      
       {/* <CardGrid
         data={labs}
         label="// hands-on"
