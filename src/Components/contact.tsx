@@ -38,8 +38,8 @@ export const Contact = ({ style }: Props) => {
     },
     {
       label: "Email",
-      val: "nickstan1110@gmail.com",
-      href: "mailto:nickstan1110@gmail.com",
+      val: "nick.stanislawski@outlook.com",
+      href: "mailto:nick.stanislawski@outlook.com",
       icon: (
         <svg
           width="16"

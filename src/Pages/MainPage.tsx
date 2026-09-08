@@ -3,7 +3,7 @@ import { projects } from "../Entities/projects";
 // import { labs } from "../Entities/labs";
 import { Footer } from "../Components/footer";
 import { Contact } from "../Components/contact";
-import { HTBWriteups } from "../Components/HTBWriteups";
+// import { HTBWriteups } from "../Components/HTBWriteups";
 // import { CVEWriteups } from "../Components/CVEWriteups";
 import Certifications from "../Components/Certifications";
 import { Education } from "../Components/Education";
@@ -43,8 +43,8 @@ const App = () => {
         style={"sectionAlt"}
       /> */}
       {/* <CVEWriteups style={"section"}/> */}
-      <HTBWriteups style={"section"} />
-      <Contact style={"sectionAlt"}/>
+      {/* <HTBWriteups style={"section"} /> */}
+      <Contact style={"section"}/>
       <Footer />
     </div>
   );

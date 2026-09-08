@@ -25,7 +25,7 @@ export const Hero = () => (
           marginBottom: "1rem",
         }}
       >
-        // CYBERSECURITY PROFESSIONAL
+        // SECURITY OPERATIONS
       </span>
       <h1
         style={{
@@ -46,7 +46,7 @@ export const Hero = () => (
           margin: "0 0 1.25rem",
         }}
       >
-        Security Analyst | Vulnerability & Infrastructure Focus
+        Detection Engineering | Incident Response | Threat Hunting | Security Automation
       </p>
       <p
         style={{
@@ -57,11 +57,7 @@ export const Hero = () => (
           fontSize: "0.97rem",
         }}
       >
-        Cybersecurity and IT professional with hands-on experience in Linux,
-        Active Directory, AWS fundamentals, and security-focused labs in
-        vulnerability assessment and system enumeration. Combines operational
-        leadership experience with a focus on infrastructure security and
-        defensive analysis.
+        Security Operations professional focused on detection engineering, incident response, threat hunting, endpoint investigation, and security automation. Hands-on experience building SIEM detections, investigating security incidents, analyzing endpoint telemetry, identifying detection gaps, and automating repeatable SecOps workflows.
       </p>
 
       <div
@@ -137,9 +133,9 @@ export const Hero = () => (
         }}
       >
         {[
-          ["20+", "Security Labs Completed"],
-          ["10+", "HTB Machines Explored"],
-          ["5+", "Years Leadership Experience"],
+          ["4+", "IT Operations Experience"],
+          ["6", "Flagship SecOps Projects"],
+          ["B.S.", "Information Technology"],
           ["9", "Industry Certifications"],
         ].map(([n, l]) => (
           <div key={l} style={{ textAlign: "center" }}>
