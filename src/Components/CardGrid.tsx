@@ -3,10 +3,10 @@ import { SectionHeader } from "./SectionHeader";
 import { s, Colors } from "../Utilities/theme";
 
 interface CardGridProps {
-  data: Array<{ title: string; desc: string; tags: string[], link: string }>;
+  data: Array<{ title: string; desc: string; tags: string[]; link: string }>;
   label: string;
   title: string;
-  id: string; 
+  id: string;
   style: string;
 }
 
@@ -47,6 +47,8 @@ export const CardGrid = ({ data, label, title, id, style }: CardGridProps) => (
             <div style={{ marginTop: "1rem" }}>
               <a
                 href={p.link || "#"}
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{
                   color: Colors.blue,
                   fontSize: "0.82rem",

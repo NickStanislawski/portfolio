@@ -10,7 +10,7 @@ const NavBar = () => {
     "Skills",
     // "Labs",
     // "CVE Write-Ups",
-    "HTB Write-Ups",
+    // "HTB Write-Ups",
     "Contact",
   ];
 
