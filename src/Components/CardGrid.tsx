@@ -14,14 +14,14 @@ export const CardGrid = ({ data, label, title, id, style }: CardGridProps) => (
   <section id={id} style={s[style]}>
     <div style={s.container}>
       <SectionHeader label={label} title={title} />
-      <div style={s.grid3}>
+      <div style={s.projectGrid}>
         {data.map((p, i) => (
           <Card key={i}>
             <h3
               style={{
                 margin: "0 0 0.55rem",
                 color: Colors.navy,
-                fontSize: "0.97rem",
+                fontSize: "1.1rem",
                 fontWeight: 700,
               }}
             >
@@ -39,7 +39,7 @@ export const CardGrid = ({ data, label, title, id, style }: CardGridProps) => (
             </p>
             <div>
               {p.tags.map((t) => (
-                <span key={t} style={s.tag}>
+                <span key={t} style={s.projectTag}>
                   {t}
                 </span>
               ))}

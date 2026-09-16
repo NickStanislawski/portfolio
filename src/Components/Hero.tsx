@@ -25,7 +25,7 @@ export const Hero = () => (
           marginBottom: "1rem",
         }}
       >
-        // SECURITY OPERATIONS
+        // IDENTITY & ACCESS MANAGEMENT
       </span>
       <h1
         style={{
@@ -46,7 +46,7 @@ export const Hero = () => (
           margin: "0 0 1.25rem",
         }}
       >
-        Detection Engineering | Incident Response | Threat Hunting | Security Automation
+        dentity Engineering | Access Governance | SSO & Federation | IAM Automation
       </p>
       <p
         style={{
@@ -57,7 +57,7 @@ export const Hero = () => (
           fontSize: "0.97rem",
         }}
       >
-        Security Operations professional focused on detection engineering, incident response, threat hunting, endpoint investigation, and security automation. Hands-on experience building SIEM detections, investigating security incidents, analyzing endpoint telemetry, identifying detection gaps, and automating repeatable SecOps workflows.
+        Identity and Access Management professional focused on identity lifecycle management, access governance, SSO and federation, privileged access, and IAM automation. Hands-on experience administering identity and access in production environments and engineering automated identity solutions across Active Directory, Okta, and Microsoft Entra ID.
       </p>
 
       <div
@@ -134,7 +134,7 @@ export const Hero = () => (
       >
         {[
           ["4+", "IT Operations Experience"],
-          ["6", "Flagship SecOps Projects"],
+          ["4", "Flagship IAM Projects"],
           ["B.S.", "Information Technology"],
           ["9", "Industry Certifications"],
         ].map(([n, l]) => (

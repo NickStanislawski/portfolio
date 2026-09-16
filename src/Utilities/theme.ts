@@ -110,6 +110,11 @@ export const s: Record<string, CSSProperties> = {
     gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
     gap: "1.25rem",
   },
+  projectGrid: {
+    display: "grid",
+    gridTemplateColumns: "1fr",
+    gap: "1.5rem",
+  },
   grid4: {
     display: "grid",
     gridTemplateColumns: "repeat(auto-fit, minmax(175px, 1fr))",
@@ -133,6 +138,18 @@ export const s: Record<string, CSSProperties> = {
     marginRight: "0.6rem",
     marginBottom: "0.75rem",
     border: "1px solid #e2e8f0",
+  },
+  projectTag: {
+    display: "inline-block",
+    background: Colors.gray100,
+    color: Colors.gray500,
+    fontSize: "0.72rem",
+    fontWeight: 600,
+    letterSpacing: "0.02em",
+    padding: "0.28rem 0.5rem",
+    borderRadius: 4,
+    marginRight: "0.45rem",
+    marginBottom: "0.45rem",
   },
   contactInput: {
     width: "100%",

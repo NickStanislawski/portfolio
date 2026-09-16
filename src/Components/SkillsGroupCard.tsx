@@ -26,7 +26,7 @@ export const SkillGroupCard = ({ group }: SkillGroupCardProps) => {
         style={{
           margin: "0 0 1.5rem 0",
           color: Colors.navy,
-          fontSize: "1.35rem",
+          fontSize: "1.1rem",
           fontWeight: 700,
           letterSpacing: "-0.3px",
         }}
@@ -35,7 +35,7 @@ export const SkillGroupCard = ({ group }: SkillGroupCardProps) => {
       </h3>
       <div>
         {group.items.map((item) => (
-          <span key={item} style={s.tag}>
+          <span key={item} style={s.projectTag}>
             {item}
           </span>
         ))}
