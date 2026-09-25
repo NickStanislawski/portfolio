@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "Identity Lifecycle Automation",
-    desc: "Engineered an enterprise identity lifecycle environment integrating Active Directory and Okta, with automated Joiner, Mover, and Leaver workflows for provisioning, access changes, and deprovisioning across the employee lifecycle.",
+    desc: "Engineered an automated identity lifecycle environment supporting 50+ identities across five departments and 10 role profiles, integrating Active Directory and Okta for role-based provisioning, access changes, and deprovisioning.",
     tags: [
       "Active Directory",
       "Okta",
@@ -15,7 +15,7 @@ export const projects = [
   },
   {
     title: "Identity Governance & Access",
-    desc: "Designed an identity governance environment for managing entitlements, access requests, certifications, and least-privilege access, including role-based access models, approval workflows, and separation-of-duties controls.",
+    desc: "Engineered identity governance for 50+ identities across five departments, governing 25+ entitlements across five applications through access certification, RBAC, and least-privilege controls.",
     tags: [
       "IGA",
       "Access Certification",
@@ -29,7 +29,7 @@ export const projects = [
   },
   {
     title: "SSO & Federation Engineering",
-    desc: "Engineered federated identity integrations using SAML 2.0, OAuth 2.0, and OpenID Connect to provide centralized authentication and secure application access across Okta and Microsoft Entra ID.",
+    desc: "Engineered federated SSO for 50+ identities across 5+ applications, integrating Okta and Microsoft Entra ID using SAML 2.0 and OpenID Connect for centralized, role-based authentication.",
     tags: [
       "Okta",
       "Microsoft Entra ID",
@@ -43,15 +43,15 @@ export const projects = [
   },
   {
     title: "Identity Security & Privileged Access",
-    desc: "Implemented privileged access controls and identity security automation using Microsoft Entra PIM, PowerShell, and Microsoft Graph to reduce standing privileges, audit identity risk, and monitor privileged activity.",
+    desc: "Engineered privileged access controls for 10+ administrative identities across 5+ privileged roles using Microsoft Entra PIM, JIT access, MFA, and automated identity security monitoring.",
     tags: [
       "Microsoft Entra ID",
       "PIM",
-      "PAM",
       "JIT Access",
       "PowerShell",
       "Microsoft Graph",
       "Identity Security",
+      "Audit Logs",
     ],
     link: "",
   },

@@ -46,7 +46,8 @@ export const Hero = () => (
           margin: "0 0 1.25rem",
         }}
       >
-        dentity Engineering | Access Governance | SSO & Federation | IAM Automation
+        Identity Engineering | Access Governance | SSO & Federation | IAM
+        Automation
       </p>
       <p
         style={{
@@ -57,7 +58,12 @@ export const Hero = () => (
           fontSize: "0.97rem",
         }}
       >
-        Identity and Access Management professional focused on identity lifecycle management, access governance, SSO and federation, privileged access, and IAM automation. Hands-on experience administering identity and access in production environments and engineering automated identity solutions across Active Directory, Okta, and Microsoft Entra ID.
+        Identity & Access Management (IAM) Engineer with four years of IT
+        operations experience supporting a 200-user production environment.
+        Administer more than 1,000 user accounts and manage approximately 150
+        identity lifecycle events annually, with hands-on engineering across
+        identity automation, governance, SSO and federation, and privileged
+        access.
       </p>
 
       <div
@@ -70,7 +76,7 @@ export const Hero = () => (
         }}
       >
         <a
-          href="/portfolio/resume.pdf" 
+          href="/portfolio/resume.pdf"
           // target="_blank"
           download="resume.pdf"
           style={{ ...s.btnOutline, display: "inline-block", margin: 0 }}
@@ -133,10 +139,10 @@ export const Hero = () => (
         }}
       >
         {[
-          ["4+", "IT Operations Experience"],
-          ["4", "Flagship IAM Projects"],
-          ["B.S.", "Information Technology"],
-          ["9", "Industry Certifications"],
+          ["4+", "Years IT Operations"],
+          ["200", "Users Supported"],
+          ["1,000+", "Accounts Administered"],
+          ["150", "Lifecycle Events / Year"],
         ].map(([n, l]) => (
           <div key={l} style={{ textAlign: "center" }}>
             <div

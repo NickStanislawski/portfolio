@@ -1,7 +1,7 @@
 export const education = [
   {
     degree: "B.S. in Information Technology",
-    school: "Western Governers University",
+    school: "Western Governors University",
     year: "2026",
     description:
       "Relevant coursework: Network Security, Cryptography, Digital Forensics, Ethical Hacking, Secure Software Development.",
